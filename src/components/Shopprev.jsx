@@ -69,7 +69,7 @@ export default function Shopprev() {
                 <button className="mt-6 ml-6 rounded-lg bg-red-500 w-52 h-11 text-white hover:bg-white hover:text-red-600 border border-transparent hover:border-red-600">View All Products</button>
                 <img src="dog1.png" className="w-64 place-self-end -mt-44 mr-14 " />
             </div>
-            <div className="grid grid-cols-3 gap-14 ml-80 mt-16 pr-24 w-full justify-center">
+            <div className="grid grid-cols-3 gap-14 ml-80 mt-16 pr-24 w-full justify-center ">
                 
                 <div className="w-80 h-full border-2 bg-transparent border-black rounded-md">
                     <div className="items-center">

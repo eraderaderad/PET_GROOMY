@@ -72,7 +72,7 @@ function App() {
             </div>
           </div>
         </nav>
-      <main className="w-full h-full flex flex-col gap-5 justify-start font-sans overflow-x-hidden">
+      <main className="w-full h-full flex flex-col gap-5 justify-start font-sans overflow-x-hidden overflow-y-auto">
         <section className="">
           <div className="mt-24 mx-64">
             <Hero/>
@@ -154,9 +154,9 @@ function App() {
           <Guides></Guides>
         </div>
         <div>
-          <MiddleNav></MiddleNav>
+          <MiddleNav/>
         </div>
-        <div>
+        <div className="">
           <Cards></Cards>
         </div>
       </section>

@@ -2,7 +2,7 @@ export default function Card() {
   return (
     <div className="flex items-center justify-center pt-24 bg-[#EEF0FC] min-h-screen">
 
-      <div className="flex flex-col items-center space-y-6 max-w-7xl">
+      <div className="flex flex-col items-center space-y-6 max-w-7xl mt-20 mb-20">
 
 
         <div className="flex border-2 border-gray-300 rounded-lg w-full max-w-4xl transform transition-all duration-300 ease-in-out hover:scale-105">

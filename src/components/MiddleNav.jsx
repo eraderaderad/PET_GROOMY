@@ -1,8 +1,8 @@
 export default function MiddleNav() {
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center relative mt-20">
 
-      <nav className="bg-[#A1D3D6] p-12 w-[1100px] absolute h-[180px] text-white rounded-[50px] shadow-lg">
+      <nav className="bg-[#A1D3D6] p-12 w-[1100px] h-[180px] absolute inset-y-0 -mt-20 text-white rounded-[50px] shadow-lg">
         <ul className="flex space-x-20 justify-center items-center">
           <li className="flex flex-col items-center">
             <img 
