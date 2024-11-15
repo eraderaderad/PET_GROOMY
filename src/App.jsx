@@ -49,8 +49,7 @@ function App() {
 
   return (
     <>
-      <main className="w-full h-full flex flex-col gap-5 justify-start font-sans">
-        <nav className="bg-white w-full h-24 flex flex-col drop-shadow-xl sticky top-0 z-20">
+    <nav className="bg-white w-full h-24 flex flex-col drop-shadow-xl sticky top-0 z-20">
           <div className="max-w-screen-xl w-full flex items-center justify-between mx-auto px-4">
             <div className="flex items-center pl-0">
               <img src="logo.png" className="w-48" alt="Logo" />
@@ -73,6 +72,7 @@ function App() {
             </div>
           </div>
         </nav>
+      <main className="w-full h-full flex flex-col gap-5 justify-start font-sans overflow-x-hidden">
         <section className="">
           <div className="mt-24 mx-64">
             <Hero/>

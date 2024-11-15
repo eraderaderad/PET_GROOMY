@@ -22,7 +22,7 @@ export default function Preview() {
                             <img src="customer-photo.jpg" alt="Customer" className="w-full h-full object-cover" />
                         </div>
                         <div className="relative">
-                            <h3 className="text-lg font-semibold text-gray-900">puke</h3>
+                            <h3 className="text-lg font-semibold text-gray-900">iverson ehtlog</h3>
                             <div className="absolute top-0 left-[150px] flex text-yellow-500">
                                 <span className="text-xl">&#9733;</span>
                                 <span className="text-xl">&#9733;</span>
@@ -42,7 +42,7 @@ export default function Preview() {
                             <img src="customer-photo.jpg" alt="Customer" className="w-full h-full object-cover" />
                         </div>
                         <div className="relative">
-                            <h3 className="text-lg font-semibold text-gray-900">tite</h3>
+                            <h3 className="text-lg font-semibold text-gray-900">erad pogi</h3>
                             <div className="absolute top-0 left-[150px] flex text-yellow-500">
                                 <span className="text-xl">&#9733;</span>
                                 <span className="text-xl">&#9733;</span>
