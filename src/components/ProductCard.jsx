@@ -61,7 +61,7 @@ export default function ProductCard({ addItem, item, ...props }) {
         {/* Centered Add to Bag button */}
         <div className="flex justify-center mt-auto mb-6">
           <button
-            className="h-10 px-20 font-semibold rounded-md bg-black text-white"
+            className="h-10 px-20 font-semibold rounded-md bg-red-600 text-white hover:bg-white hover:text-red-600 border border-transparent hover:border-red-600" 
             type="submit"
           >
             Add to bag

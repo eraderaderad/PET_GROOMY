@@ -15,24 +15,24 @@ export default function Footer() {
                     Help & Information
                 </h3>
                 <ul className="space-y-2 text-[12px]">
-                    <li>Contact Us</li>
-                    <li>Terms & Conditions</li>
-                    <li>Shipping & Returns</li>
-                    <li>Order Tracking</li>
-                    <li>Recycling</li>
-                    <li>Warranty</li>
+                    <li><button>Contact Us</button></li>
+                    <li><button>Terms & Conditions</button></li>
+                    <li><button>Shipping & Returns</button></li>
+                    <li><button>Order Tracking</button></li>
+                    <li><button>Recycling</button></li>
+                    <li><button>Warranty</button></li>
                 </ul>
                 </div>
                 
                 <div className="pb-[21px]">
                 <h3 className="font-semibold text-[18px] mb-3">Shopping</h3>
                 <ul className="space-y-2 text-[12px]">
-                    <li>My Account</li>
-                    <li>Foods & Treats</li>
-                    <li>Brushes & Combs</li>
-                    <li>Toys & Accessories</li>
-                    <li>Soaps & Shampoos</li>
-                    <li>Gift Vouchers</li>
+                    <li><button>My Account</button></li>
+                    <li><button>Foods & Treats</button></li>
+                    <li><button>Brushes & Combs</button></li>
+                    <li><button>Toys & Accessories</button></li>
+                    <li><button>Soaps & Shampoos</button></li>
+                    <li><button>Gift Vouchers</button></li>
                 </ul>
                 </div>
             </div>
@@ -42,22 +42,22 @@ export default function Footer() {
                 <div className="pb-[21px]">
                 <h3 className="font-semibold text-[18px] mb-3">Groomy</h3>
                 <ul className="space-y-2 text-[12px]">
-                    <li>Home</li>
-                    <li>Products</li>
-                    <li>Guides</li>
-                    <li>About Us</li>
-                    <li>Terms of Use</li>
-                    <li>Privacy</li>
+                    <li><button>Home</button></li>
+                    <li><button>Products</button></li>
+                    <li><button>Guides</button></li>
+                    <li><button>About Us</button></li>
+                    <li><button>Terms of Use</button></li>
+                    <li><button>Privacy</button></li>
                 </ul>
                 </div>
                 
                 <div className="pb-[21px]">
                 <h3 className="font-semibold text-[18px] mb-3">Our Website</h3>
                 <ul className="space-y-2 text-[12px]">
-                    <li>Site Map</li>
-                    <li>Privacy Policy</li>
-                    <li>Cookie Policy</li>
-                    <li>Website Help</li>
+                    <li><button>Site Map</button></li>
+                    <li><button>Privacy Policy</button></li>
+                    <li><button>Cookie Policy</button></li>
+                    <li><button>Website Help</button></li>
                 </ul>
                 </div>
             </div>
@@ -90,7 +90,7 @@ export default function Footer() {
                     className="p-2 text-[12px] rounded-full border border-gray-300 focus:outline-none focus:border-gray-500 w-[240px] h-[45px]"
                 />
                 <br className="p-[10px]"></br>
-                <button className="bg-red-500 text-white px-4 py-2 rounded-full hover:bg-red-600 text-[18px] w-[120px] h-[45px]">
+                <button className="bg-red-600 text-white hover:bg-white hover:text-red-600 border border-transparent hover:border-red-600 rounded-full text-[18px] w-[120px] h-[45px]">
                     Subscribe
                 </button>
                 </form>

@@ -154,7 +154,7 @@ function App() {
           <Guides></Guides>
         </div>
         <div>
-          <MiddleNav/>
+          <MiddleNav></MiddleNav>
         </div>
         <div>
           <Cards></Cards>
